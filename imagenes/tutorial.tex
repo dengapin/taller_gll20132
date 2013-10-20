@@ -52,7 +52,9 @@
 %%% END Article customizations
 
 \usepackage[spanish]{babel}
+
 \usepackage{listings} 
+
 %%% The "real" document content comes below...
 
 \title{JS}
@@ -63,35 +65,6 @@
 \maketitle
 %\tableofcontents % No hace falta un TOC en un artículo corto
 
-\section{Introducción}
-La presente investigación es sobre el lenguaje de programación JavaSript  (lenguaje interpretado  dialecto del estándar ECMAScript) definido como un lenguaje orientado a objetos.\\
-\\La característica principal de JavaSript es su simplicidad y manejabilidad.\\
-\\Para conocer más sobre este lenguaje de programación veremos las características más importantes,  como surgió, los requisitos para su correcta instalación y la forma más sencilla de aprender JavaScript. \\
-\\La investigación se realiza por el interés de aprender sobre un nuevo lenguaje el cual nos aporte más conocimientos sobre el amplio mundo de la programación.\\
-\\Es necesario recalcar que existen dos tipos de JavaScript: El que se denomina Navigator JavaScript que es el JavaScript propiamente dicho que es el que se ejecuta en el cliente. Pero además un JavaScript denominado LiveWire Javascript que se ejecuta en el servidor.\\
-\\ \\
-
-OBJETIVOS:
-\\ \\
-\\Analizar que es JavaScript por quienes puede ser utilizado, su manejo, y características.
-Diferenciar para que específicamente se utilicen los dos tipos que poseen JavaScript y las diferencias de Java vs JavaScript
-Aprender la correcta instalación y uso.\\
-
-\section{Características}
-{\bfseries JavaScript} es un lenguaje muy simple y manejable. Cuenta con las siguientes características:\\\\
-Variables (no se necesita declaración de tipo de dato) : n=2; o var nombre ;\\
-Condiciones: if (i<10){.....} else{}\\
-Ciclos: for (j=0; j<10; j++){......}\\
-Funciones definidas por el usuario o propias del lenguaje\\
-Comentarios: // Esto es un comentario de una línea\\
-/*Comentario\\
-multilinea*/   \\
-Permite la programación orientada a objeto: function miFuncion(a,b){..........} \\
-Permite concatenar:\\
-var hello = "Hello "; \\
-var world = "world!";\\
-var n = hello.concat(world);
-
 \section{TUTORIAL DE INSTALACION}
  Desde que los navegadores incluyen el Javascript, no necesitamos el Java Runtime Environment (JRE), para que se ejecute.
 \\  \\
@@ -101,7 +74,7 @@ Con esto se crean páginas específicas en las páginas web y si es desactivada 
 \\\\
 Veremos como habilitar(activar) JavaScript en cinco de los navegadores mas utilizados:
 
-\subsection{Google Chrome}
+\section{Google Chrome}
 
 
 \begin{figure}
@@ -109,7 +82,7 @@ Veremos como habilitar(activar) JavaScript en cinco de los navegadores mas utili
 \begin{center}
 Navegar google Chrome
 \end{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/chrome.jpg}
+\includegraphics[height=3 cm, width=3 cm] {chrome.jpg}
 
 \begin{center}
 
@@ -117,14 +90,14 @@ En el navegador web, haz click en el menú ''Customize and control Google Chrome
 y luego selecciona "Settings".
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 01.jpg}
+\includegraphics[height=8cm, width=8 cm] {chrome 01.jpg}
 
 \begin{center}
 En la sección "Settings" haz click en la 
 opción "Show advanced settings..."
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 02.jpg}
+\includegraphics[height=8cm, width=8 cm] {chrome 02.jpg}
 
 \end{center}
 \end{figure}
@@ -134,13 +107,13 @@ opción "Show advanced settings..."
 \begin{center}
 Bajo la sección "Privacy" haz click en la opción "Content settings...". (recommended)"
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/chrome 03.jpg}
+\includegraphics[height=8 cm, width=8 cm] {chrome 03.jpg}
 
 \begin{center}
 Cuando la ventana aparezca, dirigirse a la sección "JavaScript" y seleccionar la opción "Allow all sites to run JavaScript (recommended)"
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 04.jpg}
+\includegraphics[height=8cm, width=8 cm] {chrome 04.jpg}
 
 \end{center}
 \end{figure}
@@ -151,13 +124,13 @@ Cuando la ventana aparezca, dirigirse a la sección "JavaScript" y seleccionar l
 Luego haz click en el botón "OK" para cerrar la ventana. (recommended)"
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 05.jpg}
+\includegraphics[height=8cm, width=8 cm] {chrome 05.jpg}
 
 \begin{center}
 Cierra la pestaña "Settings".
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 06.jpg}
+\includegraphics[height=8cm, width=8 cm] {chrome 06.jpg}
 
 
 
@@ -171,12 +144,10 @@ Cierra la pestaña "Settings".
 Finalmente haz click en el botón "Reload this page" del navegador web para refrescar la página.
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 07.jpg}
+\includegraphics[height=8cm, width=8 cm] {chrome 07.jpg}
 
 \end{center}
 \end{figure}
-
-
 
 \lstset{language=Pascal}          % Set your language (you can change the language for each code-block optionally)
 
