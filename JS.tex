@@ -1,0 +1,111 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+%\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+\usepackage[spanish]{babel}
+\usepackage{listings} 
+%%% The "real" document content comes below...
+
+\title{JS}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+%\tableofcontents % No hace falta un TOC en un artículo corto
+
+\section{Introducción}
+La presente investigación es sobre el lenguaje de programación JavaSript  (lenguaje interpretado  dialecto del estándar ECMAScript) definido como un lenguaje orientado a objetos.\\
+\\La característica principal de JavaSript es su simplicidad y manejabilidad.\\
+\\Para conocer más sobre este lenguaje de programación veremos las características más importantes,  como surgió, los requisitos para su correcta instalación y la forma más sencilla de aprender JavaScript. \\
+\\La investigación se realiza por el interés de aprender sobre un nuevo lenguaje el cual nos aporte más conocimientos sobre el amplio mundo de la programación.\\
+\\Es necesario recalcar que existen dos tipos de JavaScript: El que se denomina Navigator JavaScript que es el JavaScript propiamente dicho que es el que se ejecuta en el cliente. Pero además un JavaScript denominado LiveWire Javascript que se ejecuta en el servidor.\\
+\\ \\
+
+OBJETVOS:
+\\ \\
+\\Analizar que es JavaScript por quienes puede ser utilizado, su manejo, y características.
+Diferenciar para que específicamente se utilicen los dos tipos que poseen JavaScript y las diferencias de Java vs JavaScript
+Aprender la correcta instalación y uso.\\
+
+\section{Características}
+{\bfseries JavaScript} es un lenguaje muy simple y manejable. Cuenta con las siguientes características:\\\\
+Variables (no se necesita declaración de tipo de dato) : n=2; o var nombre ;\\
+Condiciones: if (i<10){.....} else{}\\
+Ciclos: for (j=0; j<10; j++){......}\\
+Funciones definidas por el usuario o propias del lenguaje\\
+Comentarios: // Esto es un comentario de una línea\\
+/*Comentario\\
+multilinea*/   \\
+Permite la programación orientada a objeto: function miFuncion(a,b){..........} \\
+Permite concatenar:\\
+var hello = "Hello "; \\
+var world = "world!";\\
+var n = hello.concat(world);
+
+\section{TUTORIAL DE INSTALACION}
+ Desde que los navegadores incluyen el Javascript, no necesitamos el Java Runtime Environment (JRE), para que se ejecute.
+\\  \\
+Como habilitar JavaScrpt en tu navegador 
+Ahora ya todas las páginas web contienen  JavaScript, un lenguaje de programación que se ejecuta en el navegador web del visitante. Con esto se crean páginas específicas en las páginas web y si es desactivada o deja de funcionar por cualquier motivo la página web puede verse limitada o no quedar disponible.
+
+Veremos como habilitar(activar) JavaScript en cinco de los navegadores mas utilizados
+
+
+
+\lstset{language=Pascal}          % Set your language (you can change the language for each code-block optionally)
+
+
+
+
+
+\end{document}
