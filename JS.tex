@@ -123,10 +123,39 @@ var hello = "Hello "; \\
 var world = "world!";\\
 var n = hello.concat(world);
 
+\section{Historia}
+El lenguaje JavaScript no siempre fue llamado así. Todo empezó cuando la compañia de servicios informáticos NetScape en su entorno de competencia por el internet con la compañia de Microsoft, opto por crear un lenguaje interpretado ligero que complemente con Java. Brendan Eich es el creador de este lenguaje en Mayo de 1995, a sus inicios fue llamado Mocha por el fundador de NetScape Marc Andreessen.\\
+\begin{center}
+\includegraphics[scale=0.5]{imagenes/MicrosoftvsNetscape.JPG}
+\includegraphics[scale=0.5]{imagenes/mocha.png}
+\end{center}
+Luego cambio de nombre a LiveScript cuando fue incluido en el lanzamiento beta del navegador NetScape 2.0 como herramienta adicional para programadores. Ese mismo año volvio a cambiar de nombre a JavaScript al haber recibido una licencia de marca de la compañia SUN microsystem, el mismo que fue incluido en la version 2.0B3 del Navegador NetScape.\\
+\begin{center}
+\includegraphics[scale=0.5]{imagenes/netscape.png}
+\end{center}
+Se produjo una ola de confusión entre programadores al creer que JavaScript era una nueva implementación de Java. Este hecho fue considerado como una estrategia comercial en los momentos de competencia que atravesaba la empresa NetScape al reconocer que Java era uno de los lenguajes más utilizados.\\\\
+En 1996, JavaScript fue tomado por la organización ECMA para establecer un estandar y asi otras compañias puedan implementar con el trabajo hecho por NetScape. Se dió origen a ECMAScript el estandar oficial donde JavaScript es uno de sus implementaciones y también se destaca entre ellas ActionScript 3.\\\\
+\begin{center}
+\includegraphics[scale=0.5]{imagenes/ecma.JPG}
+\end{center}
+Los procesos de estandarización continuaron dando como resultado ECMAScript 2 y ECMAScript 3 siendo este último la base del actual JavaScript.\\
+Se originó la idea de crear una nueva versión de JavaScript llamado el JS2 o conocido como el ES4 original, esta idea fue dirigida por Waldemar Horwat en el 2000, luego tomó el mando NetScape y en la actualidad esta bajo el comando de Google.\\\\
+Microsoft también participó e incluso implemento algunos de los propuestos en su lenguaje JScript.net. A través del tiempo se dio a conocer que Microsoft no tenia intención alguna de cooperar o implementar JavaScript en su navegador Internet Explorer, tampoco tenian afinidad de competencia. En el año 2003 el lenguaje JS2/ES4 original fue descartado.\\\\
+\begin{center}
+\includegraphics[scale=0.5]{imagenes/jscript.JPG}
+\end{center}
+En el 2005 ocurrieron dos grandes eventos en la historia de JavaScript. Primeramente Brendan Eich (creador de JS) y Mozilla se reincorporaron a ECMA como miembros sin fines de lucro y trabajaron en el estándar E4X, ECMA-357, la cual vino de ex-trabajadores de Microsoft. En conjunto con Macromedia el cual estuvo implementando E4X en ActionScript 3 (siendo este un producto del trabajo en el descartado JS2/ES4 original).\\\\
+El trabajo se reinició en ECMAScript 4 con la finalidad de estandarizar lo que había en ActionScript 3 e implementarlo en SpiderMonkey. Para este fin Adobe lanzo el producto AVM2, de nombre código Tamarin como un projecto de código abierto. Tamarin y AS3 eran muy diferentes para su convergencia en la web de JavaScript.\\
+Existía conflicto interno entre varios miembros, donde Doug Crockford se unió con Microsoft en el año 2007 para oponerse a ECMAScript 4, produciendose una degradación y originandosé el ECMAScript 3.1.\\\\
+Se juntaron varios grupos en Oslo en Julio del año 2008, aquella reunión produjo un acuerdo eventual para renombrar ECMAScript 3.1 a ECMAScript 5 y seguir adelante con el proyecto usando una agenda conocida como Harmony.\\
+El resultado de todos estos eventos dieron origen al JavaScript de hoy en día, totalmente innovador y compuesto con nuevas utilidades y herramientas.\\
+
+
+
 \section{TUTORIAL DE INSTALACIÓN}
  Desde que los navegadores incluyen el Javascript, no necesitamos el Java Runtime Environment (JRE), para que se ejecute.
 \\  \\
-Como habilitar JavaScrpt en tu navegador 
+Como habilitar JavaScript en tu navegador 
 Ahora ya todas las páginas web contienen  JavaScript, un lenguaje de programación que se ejecuta en el navegador web del visitante. \\\\
 Con esto se crean páginas específicas en las páginas web y si es desactivada o deja de funcionar por cualquier motivo la página web puede verse limitada o no quedar disponible.
 \\\\
@@ -147,7 +176,7 @@ Aquí veremos como activar JS en uno de los navegadores mas populares y utilizad
 \begin{center}
 Navegar google Chrome
 \end{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/chrome.jpg}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/chrome.JPG}
 
 \ Imagen 1
 \ label { http://www.enable-javascript.com/images/chrome.gif }
@@ -160,7 +189,7 @@ Navegar google Chrome
 y luego selecciona "Settings".
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 01.jpg}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 01.JPG}
 \newline
 \  Imagen 2
 \ label { http://www.enable-javascript.com/images/chrome.gif }
@@ -178,7 +207,7 @@ y luego selecciona "Settings".
 En la sección "Settings" haz click en la 
 opción "Show advanced settings..."
 \end{center}
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 02.jpg}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 02.JPG}
 \newline
 \  Imagen 3
 \ label { http://www.enable-javascript.com/images/chrome.gif }
@@ -193,7 +222,7 @@ Bajo la sección "Privacy" haz click en la opción
 ``content settings..`` ... (recommended)
 \newline
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/chrome 03.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/chrome 03.JPG}
 \newline
 \ Imagen 4
 \ label { http://www.enable-javascript.com/images/chrome.gif }
@@ -213,7 +242,7 @@ Cuando la ventana aparezca, dirigirse a la sección ``JavaScript``  y selecciona
 \newline
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 04.jpg}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 04.JPG}
 \newline
 \ Imagen 5
 
@@ -225,7 +254,7 @@ Luego haz click en el botón ``OK`` para cerrar la ventana. (recommended)
 \newline
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 05.jpg}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 05.JPG}
 \newline
 \newline
 \ Imagen 6
@@ -241,7 +270,7 @@ Luego haz click en el botón ``OK`` para cerrar la ventana. (recommended)
 \bf PASO 6 Cierra la pestaña "Settings".
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 06.jpg}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 06.JPG}
 \newline
 \newline
 \ Imagen 7
@@ -260,7 +289,7 @@ Finalmente haz click en el botón ``Reload this page`` del navegador web para re
 \newline
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 07.jpg}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 07.JPG}
 \newline
 \ Imagen 8
 \ label { http://www.enable-javascript.com/images/chrome.gif }
@@ -278,7 +307,7 @@ Navegar Mozilla Firefox
 
 \end{center}
 \begin{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/firefox.jpg}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/firefox.JPG}
 \end{center}
 
 
@@ -291,7 +320,7 @@ En el navegador web, has click en el menú ``Firefox`` y luego selecciona el ite
 y luego selecciona ``Settings``
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 01.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 01.JPG}
 \newline
 \newline
 \ Imagen 10
@@ -302,7 +331,7 @@ y luego selecciona ``Settings``
 En la ventana ``Options`` selecciona la pestaña ``Content``.
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 02.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 02.JPG}
 \newline
 \newline
 \ Imagen 11
@@ -319,7 +348,7 @@ En la ventana ``Options`` selecciona la pestaña ``Content``.
 Marca la casilla ``Enable JavaScript``
 \newline
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 03.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 03.JPG}
 \newline
 \newline
 \ Imagen 12
@@ -329,7 +358,7 @@ Marca la casilla ``Enable JavaScript``
 \bf PASO 4
 En la ventana `` Options`` (ya abierta) haz click en el botón ``OK`` para cerrarla.
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 04.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 04.JPG}
 \newline
 \newline
 \ Imagen 13
@@ -345,7 +374,7 @@ En la ventana `` Options`` (ya abierta) haz click en el botón ``OK`` para cerra
 Haz click en el botón ``Reload current page`` del navegador para recargar la página.
 \newline
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 05.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 05.JPG}
 \newline
 \newline
 \ Imagen 14
@@ -363,7 +392,7 @@ Navegar Internet Explorer
 
 \end{center}
 \begin{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/explorer.jpg}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/explorer.JPG}
 \end{center}
 
 \ Imagen 15
@@ -379,7 +408,7 @@ Navegar Internet Explorer
 \bf PASO 1
 En el menú del navegador web, has click en el icono ``Tools`` y selecciona la opción ``Internet Options``
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 01.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 01.JPG}
 \newline
 \newline
 \ Imagen 16
@@ -390,7 +419,7 @@ En el menú del navegador web, has click en el icono ``Tools`` y selecciona la o
 En la ventana ``Internet Options`` selecciona la pestaña ``Security``.
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 02.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 02.JPG}
 \newline
 \newline
 \ Imagen 17
@@ -406,7 +435,7 @@ En la ventana ``Internet Options`` selecciona la pestaña ``Security``.
 \bf PASO 3
 En la pestaña ``Security`` haz click en el botón ``Custom level...``
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 03.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 03.JPG}
 \newline
 \newline
 \ Imagen 18 
@@ -416,7 +445,7 @@ En la pestaña ``Security`` haz click en el botón ``Custom level...``
 \bf PASO 4
 Cuando el diálogo ``Security Settings - Internet Zone`` aparezca, dirígete a la sección ``Scripting``
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 04.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 04.JPG}
 \newline
 \newline
 \ Imagen 19
@@ -433,7 +462,7 @@ Cuando el diálogo ``Security Settings - Internet Zone`` aparezca, dirígete a l
 \bf PASO 5
 En el punto ``Active Scripting`` selecciona ``Enable`` y luego haz click en ``OK``
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 05.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 05.JPG}
 \newline
 \newline
 \ Imagen 20
@@ -444,7 +473,7 @@ En el punto ``Active Scripting`` selecciona ``Enable`` y luego haz click en ``OK
 \bf PASO 6
 Cuando aparezca la ventana ``Warning!``  preguntando  ``Are you sure you want to change the settings for this zone?  selecciona ``Yes``
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 06.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 06.JPG}
 \newline
 \newline
 \ Imagen 21
@@ -461,7 +490,7 @@ Cuando aparezca la ventana ``Warning!``  preguntando  ``Are you sure you want to
 \bf PASO 7
 En la ventana ``Internet Options`` haz click en el botón ``OK``para cerrarla.
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 07.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 07.JPG}
 \newline
 \newline
 \ Imagen 22
@@ -472,7 +501,7 @@ En la ventana ``Internet Options`` haz click en el botón ``OK``para cerrarla.
 Haz click en el botón ``Refresh`` del navegador para recargar la página.
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 08.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 08.JPG}
 \newline
 \newline
 \ Imagen 23
@@ -491,7 +520,7 @@ Navegar Opera
 
 \end{center}
 \begin{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/opera.jpg}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/opera.JPG}
 \end{center}
 
 \ Imagen 24
@@ -502,7 +531,7 @@ Navegar Opera
 \bf PASO 1
 a) Haz click en el botón ``Menu`` del navegador web. En las opciones que aparecen, dirígite a ``Settings``, luego a ``Quick preferences`` y marca la casilla ``Enable JavaScript``.
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 01.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 01.JPG}
 \newline
 \newline
 \ Imagen 25
@@ -519,7 +548,7 @@ a) Haz click en el botón ``Menu`` del navegador web. En las opciones que aparec
  b) Si el "Menu bar" se encuentra, haz click en la opción ``Tools`` del navegador web, luego a ``Quick preferences`` y marca la casilla ``Enable JavaScript``.
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 02.jpg}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 02.JPG}
 \newline
 \newline
 \ Imagen 26
@@ -569,6 +598,9 @@ document.getElementById("myDIV").innerHTML="How are you?";
 
 \  {http://lenguajesscript.blogspot.com/2012/09/caracteristicas-principales-del.html }
 
+\ {Historia: http://en.wikipedia.org/wiki/JavaScript} 
+
+\ {Historia: http://www.w3.org/community/webed/wiki}
 \end{figure}
 
 
