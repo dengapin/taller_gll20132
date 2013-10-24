@@ -63,33 +63,27 @@
 \begin{document}
 \maketitle
 
+%\tableofcontents % No hace falta un TOC en un artículo corto
 
+\setlength{\unitlength}{1 cm} %Especificar unidad de trabajo
+\thispagestyle{empty}
+\begin{picture}(18,4)
+\put(0,0){\includegraphics[width=3cm,height=4cm]{imagenes/logoEspol.jpg}}
+\put(11.5,0){\includegraphics[width=4cm,height=4cm]{imagenes/logoFiec.jpg}}
+\end{picture}
+\\
+\\
+\begin{center}
+\textbf{{\Huge Lenguajes de Programación}\\[0.5cm]
+{\LARGE Investigación de JavaScript}}\\[1.25cm]
+{\LARGE \textbf{Grupo 4}}\\[1cm]
+{\LARGE \textbf{ Integrantes:}}\\[1cm]
+{\Large Denisse Pintado}\\[1cm]
+{\Large Jonathan Mendieta}\\[1cm]
+{\Large Janina Costa}\\[1cm]
 
-DEBER
-INVESTIGACIÓN
-\newline
-\newline
-DE 
-\newline
-\newline
- LENGUAJES DE PROGRAMACIÓN
-\newline
-\newline
-TEMA:  JAVASCRIPT
-\newline
-\newline
-INTEGRANTES: 
-\newline
-\newline
-DENNISE PINTADO
-\newline
-\newline
-JONATHAN MENDIETA
-\newline
-\newline
-JANINA COSTA
-\newline
-\newline
+\newpage
+\end{center}
 
 \newpage
 \title{JS}
@@ -109,8 +103,9 @@ Diferenciar para que específicamente se utilicen los dos tipos que poseen JavaS
 Aprender la correcta instalación y uso.\\\\\\
 
 \section{Características}
-{\bfseries JavaScript} es un lenguaje muy simple y manejable. Sus  características son:\\
-
+JavaScript es un lenguaje muy simple y manejable. Sus  características son:
+\newline
+\\
 \textbf{Variables} (no se necesita declaración de tipo de dato) : n=2; o var nombre ;\\
 \textbf{Condiciones:} if ( i < 10 ) \{ ..... \} else \{ \}\\
 \textbf{Ciclos:} for (j=0; j<10; j++) \{ ...... \} \\
@@ -152,12 +147,13 @@ Se juntaron varios grupos en Oslo en Julio del año 2008, aquella reunión produ
 El resultado de todos estos eventos dieron origen al JavaScript de hoy en día, totalmente innovador y compuesto con nuevas utilidades y herramientas.\\
 
 
-
 \section{TUTORIAL DE INSTALACIÓN}
- Desde que los navegadores incluyen el Javascript, no necesitamos el Java Runtime Environment (JRE), para que se ejecute.
-\\  \\
-Como habilitar JavaScript en tu navegador 
-Ahora ya todas las páginas web contienen  JavaScript, un lenguaje de programación que se ejecuta en el navegador web del visitante. \\\\
+
+Desde que los navegadores incluyen el Javascript, no necesitamos el Java Runtime Environment (JRE), para que se ejecute.
+
+
+\textbf{Como habilitar JavaScript en tu navegador }\\
+\\Ahora ya todas las páginas web contienen JavaScript, un lenguaje de programación que se ejecuta en el navegador web del visitante. \\\\
 Con esto se crean páginas específicas en las páginas web y si es desactivada o deja de funcionar por cualquier motivo la página web puede verse limitada o no quedar disponible.
 \\\\
 Veremos como habilitar(activar) JavaScript en cuatro de los navegadores mas utilizados:
@@ -165,46 +161,74 @@ Veremos como habilitar(activar) JavaScript en cuatro de los navegadores mas util
 \newline* Google Chrome
 \newline* Mozilla Firefox
 \newline* Internet Explorer
-\newline * Opera
-
+\newline
+* Opera
 \newpage
 
-\textbf {GOOGLE CHROME} \\
+
+
+\begin{figure}
+\subsection{Google Chrome}
+Aquí veremos como activar JS en uno de los navegadores mas populares y utilizados por los usuarios que es Google Chrome 
+
+
 \begin{center}
-\includegraphics[height=3cm, width=3 cm] {imagenes/chrome.JPG}
+\begin{center}
+Navegador google Chrome
+
+\includegraphics[height=3 cm, width=3 cm] {imagenes/chrome.jpg}
+\end{center}
+\ Imagen 1
+\ { http://www.enable-javascript.com/images/chrome.gif }
+\newline
+\newline
+\begin{center}
+
+\bf PASO 1 
+
+ En el navegador web, haz click en el menú ''Customize and control Google Chrome'' 
+y luego selecciona "Settings".
+\end{center}
+\begin{center}
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 01.jpg}
 \end{center}
 
-\textbf{PASO1}
- En el navegador web, haz click en el menú ''Customize and control Google Chrome'' 
-y luego selecciona "Settings". \\
+\  Imagen 2
+\ { http://www.enable-javascript.com/images/chrome.gif }
+\newline
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 01.JPG}
+\end{center}
+\end{figure}
+
+\begin{figure}
+\begin{center}
+\begin{center}
+
+
+\bf PASO 2
+En la sección "Settings" haz click en la 
+opción "Show advanced settings..."
+
+
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 02.jpg}
+\end{center}
+\  Imagen 3
+\ { http://www.enable-javascript.com/images/chrome.gif }
 \newline
 
 
 
 
-
-En la sección "Settings" haz click en la 
-opción "Show advanced settings..."
-\begin{figure}
 \begin{center}
-\begin{center}
-\end{center}
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 02.JPG}
-
-
-
-
-\begin{center}
-\textbf{ PASO 3}
+\bf PASO 3
 Bajo la sección "Privacy" haz click en la opción 
 ``content settings..`` ... (recommended)
 \newline
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/chrome 03.JPG}
+\includegraphics[height=8 cm, width=8 cm] {imagenes/chrome 03.jpg}
 \end{center}
-\ Fuente :{ http://www.enable-javascript.com/images/chrome.gif }
+\ Imagen 4
+\ { http://www.enable-javascript.com/images/chrome.gif }
 \newline
 
 
@@ -216,25 +240,27 @@ Bajo la sección "Privacy" haz click en la opción
 \begin{center}
 \begin{center}
 
-\textbf{  PASO 4}
+\bf PASO 4
 Cuando la ventana aparezca, dirigirse a la sección ``JavaScript``  y seleccionar la opción ``Allow all sites to run JavaScript (recommended)``
 \newline
+
+
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 04.jpg}
 \end{center}
+\ Imagen 5
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 04.JPG}
-\newline
-
-\ Fuente :{ http://www.enable-javascript.com/images/chrome.gif }
+\ { http://www.enable-javascript.com/images/chrome.gif }
 
 \begin{center}
-\textbf{ PASO 5}
+\bf PASO 5
 Luego haz click en el botón ``OK`` para cerrar la ventana. (recommended)
 \newline
-\end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 05.JPG}
-\newline
-\newline
+
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 05.jpg}
+\end{center}
+\ Imagen 6
+\ { http://www.enable-javascript.com/images/chrome.gif }
 \newline
 \end{center}
 \end{figure}
@@ -242,13 +268,14 @@ Luego haz click en el botón ``OK`` para cerrar la ventana. (recommended)
 \begin{figure}
 \begin{center}
 \begin{center}
-\textbf{ PASO 6 }Cierra la pestaña "Settings".
+
+\bf PASO 6 Cierra la pestaña "Settings".
 \end{center}
 
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 06.JPG}
-\newline
-\newline
-\  Fuente:l { http://www.enable-javascript.com/images/chrome.gif }
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 06.jpg}
+
+\ Imagen 7
+\ { http://www.enable-javascript.com/images/chrome.gif }
 
 
 \end{center}
@@ -258,15 +285,15 @@ Luego haz click en el botón ``OK`` para cerrar la ventana. (recommended)
 \begin{figure}
 \begin{center}
 \begin{center}
-\textbf{PASO 7}
+\bf PASO 7
 Finalmente haz click en el botón ``Reload this page`` del navegador web para refrescar la página.
 \newline
+
+
+\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 07.jpg}
 \end{center}
-
-\includegraphics[height=8cm, width=8 cm] {imagenes/chrome 07.JPG}
-\newline
-
-\  { http://www.enable-javascript.com/images/chrome.gif }
+\ Imagen 8
+\ { http://www.enable-javascript.com/images/chrome.gif }
 \end{center}
 \end{figure}
 
@@ -281,82 +308,79 @@ Navegar Mozilla Firefox
 
 \end{center}
 \begin{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/firefox.JPG}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/firefox.jpg}
 \end{center}
 
 
-
-\ {http://www.enable-javascript.com/images/firefox.gif }
+\ Imagen 9
+\ {http://www.enable-javascript.com/images/firefox.gif }\\
 
 \begin{center}
 
-\textbf{  PASO 1 }
+\bf PASO 1 
 En el navegador web, has click en el menú ``Firefox`` y luego selecciona el item ``Tools``
 y luego selecciona ``Settings``
-\end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 01.JPG}
-\newline
-\newline
-\
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 01.jpg}
+\end{center}
+\ Imagen 10
 \ {http://www.enable-javascript.com/images/firefox.gif }
-
-\begin{center}
-\bf PASO 2
-En la ventana ``Options`` selecciona la pestaña ``Content``.
-\end{center}
-
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 02.JPG}
-\newline
-\newline
-\
-\  {http://www.enable-javascript.com/images/firefox.gif }
 
 \end{center}
 \end{figure}
 
 \begin{figure}
 \begin{center}
+
+\begin{center}
+\bf PASO 2
+En la ventana ``Options`` selecciona la pestaña ``Content``.
+
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 02.jpg}
+\end{center}
+\ Imagen 11
+\ {http://www.enable-javascript.com/images/firefox.gif }
 
 \begin{center}
 \bf PASO 3
 Marca la casilla ``Enable JavaScript``
 \newline
-\end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 03.JPG}
-\newline
-\newline
-\ 
-\  {http://www.enable-javascript.com/images/firefox.gif }
 
-\begin{center}
-\bf PASO 4
-En la ventana `` Options`` (ya abierta) haz click en el botón ``OK`` para cerrarla.
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 03.jpg}
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 04.JPG}
-\newline
-\newline
-\ 
-\  {http://www.enable-javascript.com/images/firefox.gif }
+\ Imagen 12
+\ {http://www.enable-javascript.com/images/firefox.gif }
 
 \end{center}
 \end{figure}
 
 \begin{figure}
 \begin{center}
+
+\begin{center}
+\bf PASO 4
+En la ventana `` Options`` (ya abierta) haz click en el botón ``OK`` para cerrarla.
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 04.jpg}
+\end{center}
+\ Imagen 13
+\ {http://www.enable-javascript.com/images/firefox.gif }
+
 \begin{center}
 \bf PASO 5
 Haz click en el botón ``Reload current page`` del navegador para recargar la página.
 \newline
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 05.jpg}
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/firefox 05.JPG}
-\newline
-\newline
-\ 
+\ Imagen 14
 \ {http://www.enable-javascript.com/images/firefox.gif }
 
 \end{center}
 \end{figure}
+
 
 \begin{figure}
 \subsection{Internet Explorer}
@@ -367,94 +391,77 @@ Navegar Internet Explorer
 
 \end{center}
 \begin{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/explorer.JPG}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/explorer.jpg}
 \end{center}
 
-\ 
-\  {http://www.enable-javascript.com/images/ie9.gif }
-
-\end{center}
-\end{figure}
-
-
-\begin{figure}
-\begin{center}
+\ Imagen 15
+\ {http://www.enable-javascript.com/images/ie9.gif }
+\newline
 \begin{center}
 
-\textbf{ PASO 1}
+\bf PASO 1
 En el menú del navegador web, has click en el icono ``Tools`` y selecciona la opción ``Internet Options``
+\\
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 01.JPG}
-\newline
-\newline
-\ 
-\ l {http://www.enable-javascript.com/images/ie9.gif }
-
 \begin{center}
-
-\textbf{ PASO 2 }
-En la ventana ``Internet Options`` selecciona la pestaña ``Security``.
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 01.jpg}
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 02.JPG}
-\newline
-\newline
-\ 
-\  {http://www.enable-javascript.com/images/ie9.gif }
+\ Imagen 16
+\ {http://www.enable-javascript.com/images/ie9.gif }
 
 \end{center}
 \end{figure}
 
+
 \begin{figure}
 \begin{center}
+
+
+\begin{center}
+\bf PASO 2
+En la ventana ``Internet Options`` selecciona la pestaña ``Security``.
+
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 02.jpg}
+\end{center}
+
+\ Imagen 17
+\ {http://www.enable-javascript.com/images/ie9.gif }
 
 \begin{center}
 \bf PASO 3
 En la pestaña ``Security`` haz click en el botón ``Custom level...``
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 03.jpg}
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 03.JPG}
-\newline
-\newline
-\ 
+\ Imagen 18 
 \ {http://www.enable-javascript.com/images/ie9.gif }
-\newline
-\begin{center}
-\bf PASO 4
-Cuando el diálogo ``Security Settings - Internet Zone`` aparezca, dirígete a la sección ``Scripting``
-\end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 04.JPG}
-\newline
-\newline
-\
-\  {http://www.enable-javascript.com/images/ie9.gif }
 
 \end{center}
 \end{figure}
 
-
 \begin{figure}
 \begin{center}
+
+\begin{center}
+\bf PASO 4
+Cuando el diálogo ``Security Settings - Internet Zone`` aparezca, dirígete a la sección ``Scripting``
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 04.jpg}
+\end{center}
+\ Imagen 19
+\ {http://www.enable-javascript.com/images/ie9.gif }
 
 \begin{center}
 \bf PASO 5
 En el punto ``Active Scripting`` selecciona ``Enable`` y luego haz click en ``OK``
-\end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 05.JPG}
-\newline
-\newline
-\ 
-\ l {http://www.enable-javascript.com/images/ie9.gif }
-\newline
 
-\begin{center}
-\bf PASO 6
-Cuando aparezca la ventana ``Warning!``  preguntando  ``Are you sure you want to change the settings for this zone?  selecciona ``Yes``
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 05.jpg}
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 06.JPG}
+\ Imagen 20
+\ {http://www.enable-javascript.com/images/ie9.gif }
 \newline
-\newline
-\ 
-\  {http://www.enable-javascript.com/images/ie9.gif }
 
 \end{center}
 \end{figure}
@@ -463,25 +470,43 @@ Cuando aparezca la ventana ``Warning!``  preguntando  ``Are you sure you want to
 \begin{figure}
 \begin{center}
 
+
+
+\begin{center}
+\bf PASO 6
+Cuando aparezca la ventana ``Warning!``  preguntando  ``Are you sure you want to change the settings for this zone?  selecciona ``Yes``
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 06.jpg}
+\end{center}
+\ Imagen 21
+\ {http://www.enable-javascript.com/images/ie9.gif }
+
 \begin{center}
 \bf PASO 7
 En la ventana ``Internet Options`` haz click en el botón ``OK``para cerrarla.
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 07.jpg}
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 07.JPG}
-\newline
-\newline
-\ 
+\ Imagen 22
 \ {http://www.enable-javascript.com/images/ie9.gif }
+
+\end{center}
+\end{figure}
+
+
+\begin{figure}
+\begin{center}
+
+
 
 \begin{center}
 \bf PASO 8
 Haz click en el botón ``Refresh`` del navegador para recargar la página.
-\end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 08.JPG}
-\newline
-\newline
-\ 
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/explorer 08.jpg}
+\end{center}
+\ Imagen 23
 \ {http://www.enable-javascript.com/images/ie9.gif }
 
 \end{center}
@@ -493,73 +518,90 @@ Haz click en el botón ``Refresh`` del navegador para recargar la página.
 Pasos para activar JavaScript en navegador Opera
 \begin{center}
 \begin{center}
-Navegador Opera
+Navegar Opera
 
 \end{center}
 \begin{center}
-\includegraphics[height=3 cm, width=3 cm] {imagenes/opera.JPG}
+\includegraphics[height=3 cm, width=3 cm] {imagenes/opera.jpg}
 \end{center}
 
-
-\ Fuente: {http://www.enable-javascript.com/images/opera.gif}
+\ Imagen 24
+\ {http://www.enable-javascript.com/images/opera.gif}
 \newline
 
 \begin{center}
-\bf PASO 1  Haz click en el botón ``Menu`` del navegador web. En las opciones que aparecen, dirígite a ``Settings``, luego a ``Quick preferences`` y marca la casilla ``Enable JavaScript``.
+\bf PASO 1
+a) Haz click en el botón ``Menu`` del navegador web. En las opciones que aparecen, dirígite a ``Settings``, luego a ``Quick preferences`` y marca la casilla ``Enable JavaScript``.
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 01.jpg}
 \end{center}
-\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 01.JPG}
-\newline
-\ Fuente: {http://www.enable-javascript.com/images/opera.gif}
+\ Imagen 25
+\ {http://www.enable-javascript.com/images/opera.gif}
 
 \end{center}
 \end{figure}
 
-
+\begin{figure}
+\begin{center}
 
 \begin{center}
 \bf PASO 1
  b) Si el "Menu bar" se encuentra, haz click en la opción ``Tools`` del navegador web, luego a ``Quick preferences`` y marca la casilla ``Enable JavaScript``.
+
+
+\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 02.jpg}
+\end{center}
+\ Imagen 26
+\ {http://www.enable-javascript.com/images/opera.gif}
+\\
+
 \end{center}
 
-\includegraphics[height=8 cm, width=8 cm] {imagenes/opera 02.JPG}
+\section{Hola Mundo y Otros Programas introductorios}
+
+
+Con javascript podemos hacer páginas dinámicas dando versatilidad al usuario que navega en un sitio web. podemos realizar páginas transaccionales y crear eventos con gran facilidad. \ \
 \newline
-\newline
 
 
-
-
-\section{Hola Mundo y otros Programas Introductorios} 
-
-Con javascript podemos hacer páginas dinámicas dando versatilidad al usuario que navega en un sitio web. Podemos realizar páginas transaccionales y crear eventos con gran facilidad.\\
-
+\begin{center}
 \fbox{ 
 function funcionEjemplo() 
 \{
 alert("Hello World!  :D ");
 \}
  } \\
+\end{center}
 
-En este lenguaje podemos usar muchas o casi todas las funciones y caracteristicas de Java ya que es un discipulo del mismo, por lo tanto este lenguaje nos permite realizar constructores con la misma sintaxis de java común.\\
+
+
+En este lenguaje podemos usar muchas o casi todas las funciones y características de Java ya que es un discipulo del mismo, por lo tanto este lenguaje nos permite realizar constructores con la misma sintaxis de java común. \ \
+\newline
+
 
 \fbox{ 
 function Persona(firstname,lastname,age,eyecolor)
 \{
-this.firstname=firstname;
+\newline
+\\this.firstname=firstname;
 this.lastname=lastname;
 this.age=age;
 this.eyecolor=eyecolor;
 \}
- } \\ 
+ } 
+\\
 
-Se hace uso del DOM en algunos codigos de Javascript\\
+Se hace uso del Dom en algunos codigos de Javascript.\\
+
 
 \fbox{ 
 document.getElementById("demo").innerHTML="Hello Dolly";
 document.getElementById("myDIV").innerHTML="How are you?";
 }  
+\\
+\end{figure}
+\begin{figure}
 
-
-\newpage
 
 \section{Bibliografía}
 
@@ -570,8 +612,19 @@ document.getElementById("myDIV").innerHTML="How are you?";
 
 \  {http://lenguajesscript.blogspot.com/2012/09/caracteristicas-principales-del.html }
 
+\ {http://www.enable-javascript.com/es/}
+
+\ {http://librosweb.es/javascript/}
+
+
 \ {Historia: http://en.wikipedia.org/wiki/JavaScript} 
 
 \ {Historia: http://www.w3.org/community/webed/wiki}
+
+
+\end{figure}
+
+
+
 
 \end{document}
